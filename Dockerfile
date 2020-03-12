@@ -13,7 +13,7 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
 ENV KUBE_LATEST_VERSION="v1.17.3"
 # Note: Latest version of helm may be found at:
 # https://github.com/kubernetes/helm/releases
-ENV HELM_VERSION="2.10"
+ENV HELM_VERSION="v3.1.1"
 ENV MAVEN_HOME /usr/share/maven
 ENV MAVEN_CONFIG "$USER_HOME_DIR/.m2"
 RUN   apk update \                                                                                                                                                                                                                        
